@@ -10,7 +10,7 @@ import MenuOverlay from './MenuOverlay';
 const navLink = [
     { title: 'Sobre mi', path: '#about' },
     { title: 'Proyectos', path: '#projects' },
-    { title: 'Contacto', path: '#contact' }
+    //{ title: 'Contacto', path: '#contact' }
 ]
 
 const Navbar = () => {

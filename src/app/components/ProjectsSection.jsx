@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import ProjectCard from './ProjectCard'
 import ProjectTag from './ProjectTag';
+import { urlTypes } from '../types/urlTypes';
 
 
 const projectData = [
@@ -11,7 +12,7 @@ const projectData = [
         description: 'Aplicación móvil para la gestion del servicio de agua y alcantarillado, pago del servico, entre otras funciones.',
         imgURL: '/images/projects/4.jpg',
         tag: ['Todos', 'Móvil'],
-        gitUrl: 'https://github.com/evedl',
+        gitUrl: 'urlTypes.GITHUB',
         previewUrl: '/',
     },
     {

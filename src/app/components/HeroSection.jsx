@@ -56,9 +56,13 @@ const HeroSection = () => {
                     </div>
 
                     <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-purple-300 hover:bg-purple-400 text-white'>
-                        <span className='block bg-[#121212] hover:bg-gradient-to-r from-pink-500 to-purple-500 rounded-full px-5 py-2'>
+                        <Link 
+                            href={urlTypes.CV}
+                            target='_blank' rel='noopener noreferrer'
+                            className='block bg-[#121212] hover:bg-gradient-to-r from-pink-500 to-purple-500 rounded-full px-5 py-2'
+                        >
                             Descargar CV
-                        </span>
+                        </Link>
                     </button>
                 </div>
                 <div className='col-span-5 place-self-center'>

@@ -30,8 +30,8 @@ const HeroSection = () => {
                                 1000,
                                 'Desarrolladora Front-end.',
                                 1000,
-                                'Diseñadora UI/UX.',
-                                1000,
+                                //'Diseñadora UI/UX.',
+                                //1000,
                                 'Desarrolladora Móvil.',
                                 1000,
                             ]}
@@ -41,8 +41,8 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>
-                        Soy desarrolladora front-end de aplicaciones móviles y web.
-                        Mi objetivo es fusionar diseño y tecnología para ofrecer interfaces intuitivas y encantadoras
+                        Soy desarrolladora de aplicaciones móviles y web.
+                        Mi objetivo es fusionar diseño y tecnología para ofrecer interfaces intuitivas y encantadoras.
                     </p>
 
                     <div className="flex px-1 py-3 w-full sm:w-fit">
@@ -55,7 +55,7 @@ const HeroSection = () => {
                         ))}
                     </div>
 
-                    <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-white'>
+                    <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-purple-300 hover:bg-purple-400 text-white'>
                         <span className='block bg-[#121212] hover:bg-gradient-to-r from-pink-500 to-purple-500 rounded-full px-5 py-2'>
                             Descargar CV
                         </span>

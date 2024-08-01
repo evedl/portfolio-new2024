@@ -7,12 +7,13 @@ import ProjectTag from './ProjectTag';
 const projectData = [
     {
         id: 1,
-        title: 'Aplicacio móvil CMAPAS',
+        title: 'Aplicación móvil CMAPAS',
         description: 'Aplicación móvil para la gestion del servicio de agua y alcantarillado, pago del servico, entre otras funciones.',
         imgURL: '/images/projects/4.jpg',
         tag: ['Todos', 'Móvil'],
         gitUrl: 'https://github.com/evedl',
-        previewUrl: '/',
+        playstore: 'https://play.google.com/store/apps/details?id=com.appcmapas&hl=en',
+        appstore: 'https://apps.apple.com/mx/app/cmapas-pagos/id6503981188'
     },
     {
         id: 2,
@@ -21,7 +22,6 @@ const projectData = [
         imgURL: '/images/projects/2.jpg',
         tag: ['Todos', 'Web'],
         gitUrl: 'https://github.com/evedl/IECG',
-        previewUrl: '/',
     },
     {
         id: 3,
@@ -96,6 +96,8 @@ const ProjectsSection = () => {
                         imgURL={project.imgURL} 
                         gitUrl={project.gitUrl}
                         previewUrl={project.previewUrl}
+                        appstore={project.appstore}
+                        playstore={project.playstore}
                     />
                 ))}
             </div>

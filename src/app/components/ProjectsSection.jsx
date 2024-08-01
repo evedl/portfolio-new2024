@@ -8,8 +8,8 @@ const projectData = [
     {
         id: 1,
         title: 'Aplicación móvil CMAPAS',
-        description: 'Aplicación móvil para la gestion del servicio de agua y alcantarillado, pago del servico, entre otras funciones.',
-        imgURL: '/images/projects/4.jpg',
+        description: 'Aplicación móvil (Android y iOS), utilizando React native, para la gestión del servicio de agua y alcantarillado, optimizando el proceso de pago, mejorando significativamente el rendimiento y la seguridad, entre otras funciones.',
+        imgURL: '/images/projects/cmapas.png',
         tag: ['Todos', 'Móvil'],
         gitUrl: 'https://github.com/evedl',
         playstore: 'https://play.google.com/store/apps/details?id=com.appcmapas&hl=en',

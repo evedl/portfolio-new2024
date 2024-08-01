@@ -57,7 +57,7 @@ const HeroSection = () => {
 
                     <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-purple-300 hover:bg-purple-400 text-white'>
                         <Link 
-                            href={urlTypes.CV}
+                            href='/cv.pdf'
                             target='_blank' rel='noopener noreferrer'
                             className='block bg-[#121212] hover:bg-gradient-to-r from-pink-500 to-purple-500 rounded-full px-5 py-2'
                         >

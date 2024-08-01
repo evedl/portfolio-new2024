@@ -2,6 +2,8 @@
 import React, { useState, useTransition } from 'react'
 import TabButton from './TabButton'
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCss3Alt, faGitAlt, faHtml5, faJs, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 
 
 const tabContent = [
@@ -9,13 +11,72 @@ const tabContent = [
         title: 'Habilidades',
         id: 'skills',
         content: (
-            <ul className='list-disc pl-2'>
-                <li>JavaScript</li>
-                <li>React Native</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Git</li>
+            <ul className='list-none pl-2'>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faJs}
+                        color={'yellow'}
+                        className='text-xl mr-2 '
+                    />
+                    JavaScript
+                </li>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faReact}
+                        color={'#61dbfb'}
+                        className='text-xl mr-2'
+                    />
+                    React Native
+                </li>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faReact}
+                        color={'#61dbfb'}
+                        className='text-xl mr-2'
+                    />
+                    React.js
+                </li>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faNodeJs}
+                        color={'#3c873a'}
+                        className='text-xl mr-2'
+                    />
+                    Node.js
+                </li>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faJsSquare}
+                        color={'grey'}
+                        className='text-xl mr-2'
+                    />
+
+                    Express.js
+                </li>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faGitAlt}
+                        color={'#f34f29'}
+                        className='text-xl mr-2'
+                    />
+                    Git
+                </li>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faHtml5}
+                        color={'#e34c26'}
+                        className='text-xl mr-2'
+                    />
+                    HTML
+                </li>
+                <li>
+                    <FontAwesomeIcon
+                        icon={faCss3Alt}
+                        color={'#2965f1'}
+                        className='text-xl mr-2'
+                    />
+                    CSS
+                </li>
             </ul>
         )
     },
